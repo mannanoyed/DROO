@@ -4,7 +4,7 @@
 
 Python code to reproduce our DROO algorithm for Wireless-powered Mobile-Edge Computing [1], which uses the time-varying wireless channel gains as the input and generates the binary offloading decisions. It includes:
 
-- [memory.py](memory.py): the DNN structure for the WPMEC, inclduing training structure and test structure, implemented based on [Tensorflow 1.x](https://www.tensorflow.org/install/pip).
+- [memory.py](memory.py): the DNN structure for the WPMEC, including training structure and test structure, implemented based on [Tensorflow 1.x](https://www.tensorflow.org/install/pip).
   - [memoryTF2.py](memoryTF2.py): Implemented based on [Tensorflow 2](https://www.tensorflow.org/install).
   - [memoryPyTorch.py](memoryPyTorch.py): Implemented based on [PyTorch](https://pytorch.org/get-started/locally/).
 - [optimization.py](optimization.py): solve the resource allocation problem
